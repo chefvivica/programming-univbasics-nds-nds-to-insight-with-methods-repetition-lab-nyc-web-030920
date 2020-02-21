@@ -52,7 +52,7 @@ def total_gross(source)
       gross_for_director(source) += 1 
       inner_index += 1 
     end 
-  
+  tot
 end
 
 
