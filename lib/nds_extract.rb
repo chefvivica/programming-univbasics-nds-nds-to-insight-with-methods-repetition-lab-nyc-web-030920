@@ -26,6 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  puts directors_totals(source)
 end
 
 def total_gross(source)
