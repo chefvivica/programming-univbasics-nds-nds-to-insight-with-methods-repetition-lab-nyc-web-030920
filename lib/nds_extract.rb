@@ -45,16 +45,7 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-#   total = 0
-#   inner_index = 0 
-#     while inner_index < list_of_directors(source).length do 
-#       total += directors_totals[source][inner_index][:worldwide_gross]   
-#       inner_index += 1 
-#     end 
-#   total
-# end
 
-dir_to_earnings_hash = directors_totals(source)
   dir_names = list_of_directors(source)
   i = 0
 
