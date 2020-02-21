@@ -48,7 +48,7 @@ def total_gross(source)
   total = 0
   inner_index = 0 
     while inner_index < list_of_directors(source).length do 
-      total += directors_totals[source][:worldwide_gross]   
+      total += directors_totals[source][inner_index][:worldwide_gross]   
       inner_index += 1 
     end 
   total
