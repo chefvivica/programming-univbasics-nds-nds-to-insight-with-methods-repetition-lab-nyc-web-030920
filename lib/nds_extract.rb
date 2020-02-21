@@ -26,10 +26,10 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  list = {}
+  list = []
   list_index = 0 
     while list_index < source.length do 
-      list[:name] = directors_totals(source)[list_index][:name]
+      list << directors_totals(source)[:name]
       list_index += 1 
     end
   list 
